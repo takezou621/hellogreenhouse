@@ -178,7 +178,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage update --platform iOS";
+			shellScript = "/usr/local/bin/carthage bootstrap --platform iOS";
 		};
 /* End PBXShellScriptBuildPhase section */
 
