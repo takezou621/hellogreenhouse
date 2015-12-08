@@ -90,7 +90,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D25452D91C0F402300D2AA1A /* Build configuration list for PBXNativeTarget "hellogreenhouse" */;
 			buildPhases = (
-				D25452E11C0F410500D2AA1A /* ShellScript */,
 				D25452C31C0F402300D2AA1A /* Sources */,
 				D25452C41C0F402300D2AA1A /* Frameworks */,
 				D25452C51C0F402300D2AA1A /* Resources */,
@@ -166,19 +165,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		D25452E11C0F410500D2AA1A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage update --platform iOS";
 		};
 /* End PBXShellScriptBuildPhase section */
 
